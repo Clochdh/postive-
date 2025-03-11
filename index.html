@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peaceful Yoga Studio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background: linear-gradient(135deg, #70c9a0, #4CAF50);
+            color: white;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .hero {
+            padding: 180px 20px 100px;
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                        url('https://images.unsplash.com/photo-1545205597-3d9d02c29597?ixlib=rb-1.2.1');
+            background-size: cover;
+            text-align: center;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 18px;
+            margin-top: 20px;
+            transition: transform 0.3s;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+
+        .classes {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .class-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .price {
+            font-size: 32px;
+            color: #4CAF50;
+            margin: 20px 0;
+        }
+
+        .contact-section {
+            background: #fff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .phone-number {
+            font-size: 24px;
+            color: #4CAF50;
+            margin: 20px 0;
+            text-decoration: none;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Peaceful Yoga</div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Transform Your Life Through Yoga</h1>
+        <p>Join our online classes from the comfort of your home</p>
+        <a href="tel:+919876543210" class="cta-button">Call Now: +91 98765 43210</a>
+    </section>
+
+    <div class="yoga-poses">
+        <h2>Our Yoga Practices</h2>
+        <div class="pose-grid">
+            <div class="pose-card">
+                <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b" alt="Hatha Yoga">
+                <h3>Hatha Yoga</h3>
+                <p>Perfect for beginners, focusing on basic postures and breathing techniques</p>
+                <a href="tel:+919876543210" class="cta-button">Join Class</a>
+            </div>
+
+            <div class="pose-card">
+                <img src="https://images.unsplash.com/photo-1588286840104-8957b019727f" alt="Vinyasa Flow">
+                <h3>Vinyasa Flow</h3>
+                <p>Dynamic flowing sequences synchronized with breath</p>
+                <a href="tel:+919876543210" class="cta-button">Join Class</a>
+            </div>
+
+            <div class="pose-card">
+                <img src="https://images.unsplash.com/photo-1599901860904-17e6ed7083a0" alt="Meditation">
+                <h3>Meditation & Pranayama</h3>
+                <p>Deep breathing exercises and mindfulness practices</p>
+                <a href="tel:+919876543210" class="cta-button">Join Class</a>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .yoga-poses {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        .yoga-poses h2 {
+            font-size: 36px;
+            margin-bottom: 40px;
+            color: #333;
+        }
+
+        .pose-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .pose-card {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .pose-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .pose-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .pose-card h3 {
+            color: #4CAF50;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        .pose-card p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+    </style>
+
+    <div class="classes">
+       
+
+    <section class="contact-section">
+        <h2>Ready to Start Your Journey?</h2>
+        <p>Call us now to book your first class or learn more about our programs</p>
+        <a href="tel:+919876543210" class="phone-number">+91 98765 43210</a>
+        <p>Available Monday to Saturday (6 AM - 8 PM)</p>
+    </section>
+    <div class="reviews">
+        <h2>What Our Students Say</h2>
+        <div class="review-grid">
+            <div class="review-card">
+                <div class="avatar">👤</div>
+                <h3>Sarah Johnson</h3>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"The online yoga classes have transformed my daily routine. The instructor is amazing and very attentive!"</p>
+            </div>
+
+            <div class="review-card">
+                <div class="avatar">👤</div>
+                <h3>Raj Patel</h3>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"I've been practicing yoga for years, but these classes brought a new perspective to my practice."</p>
+            </div>
+
+            <div class="review-card">
+                <div class="avatar">👤</div>
+                <h3>Maya Singh</h3>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"The flexibility of online classes combined with personal attention makes this perfect for beginners!"</p>
+            </div>
+        </div>
+    </div>
+    <!-- Add this CSS in the style section -->
+    <style>
+        .reviews {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        .reviews h2 {
+            font-size: 36px;
+            margin-bottom: 40px;
+            color: #333;
+        }
+
+        .review-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .review-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .avatar {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .stars {
+            color: #ffd700;
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        .review-card h3 {
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+
+        .review-card p {
+            font-style: italic;
+            color: #666;
+        }
+    </style>
+    </footer>
+</body>
+</html>
